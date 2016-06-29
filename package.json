@@ -1,0 +1,23 @@
+{
+  "name": "dustworks-raspberry-pi",
+  "version": "0.0.0",
+  "description": "REST LED controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbennett63/dustworks-raspberry-pi.git"
+  },
+  "author": "Dustin Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbennett63/dustworks-raspberry-pi/issues"
+  },
+  "dependencies": {
+    "connect": "^3.4.1",
+    "express": "^4.14.0",
+    "pi-gpio": "0.0.8"
+  }
+}
